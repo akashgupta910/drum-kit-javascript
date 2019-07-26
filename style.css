@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(Image/BG.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+ul {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+ul li {
+    margin: 0 40px;
+    list-style-type: none;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    width: 85px;
+    height: 85px;
+}
+
+ul li h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+ul li p {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 13px;
+}
